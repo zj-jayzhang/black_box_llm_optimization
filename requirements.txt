@@ -1,0 +1,46 @@
+# Requirements for VLM Adversarial Project
+# 
+# To set up the environment with uv:
+# 1. Create and activate virtual environment: uv venv && source .venv/bin/activate
+# 2. Install dependencies: uv pip install -r requirements.txt
+# 
+# Alternative uv workflow (recommended):
+# - uv run python your_script.py  # automatically uses correct environment
+# - uv add <package>              # add new dependencies  
+# - uv remove <package>           # remove dependencies
+
+# Core ML/AI libraries
+torch>=2.0.0
+transformers==4.54.0
+torchvision>=0.22.1
+accelerate>=0.21.0
+safetensors>=0.3.1
+
+# Numerical computing and data processing
+numpy>=1.24.0
+
+# Image and computer vision processing
+pillow>=10.0.0
+# opencv-python>=4.8.0  # REMOVED: OpenCV is installed via conda in environment.yml
+
+# Progress bars and utilities
+tqdm>=4.65.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+
+# HTTP requests
+requests>=2.28.0
+
+# Specialized packages
+qwen-vl-utils>=0.0.11
+
+# API and utilities
+openai==1.93.3
+rich>=14.0.0
+# for jailbreak
+wandb
+pytz
+pandas
+fschat==0.2.23
+anthropic
