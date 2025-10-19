@@ -37,7 +37,7 @@ uv pip install -r requirements.txt
 
 The codebase supports three primary attack scenarios. Each section below provides detailed commands and explanations.
 
-### 1. Transferable Adversarial Examples for Vision-LLMs
+### 1. Adversarial Examples for Vision-LLMs
 
 Generate and test adversarial examples that transfer across different vision-language models:
 
