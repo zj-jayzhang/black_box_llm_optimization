@@ -5,7 +5,7 @@
 This repository presents a novel approach for attacking black-box large language models (LLMs) by exploiting their ability to express confidence in natural language. Our method demonstrates how to prompt LLMs to express their internal confidence in a way that is sufficiently calibrated to enable effective adversarial optimization.
 
 We apply our general methodology to three distinct attack scenarios:
-- **Transferable adversarial examples** for vision-language models (VLMs)
+- **Adversarial examples** for vision-language models (VLMs)
 - **Jailbreak attacks** to bypass safety mechanisms
 - **Prompt injection attacks** to manipulate model behavior
 
@@ -39,7 +39,7 @@ The codebase supports three primary attack scenarios. Each section below provide
 
 ### 1. Adversarial Examples for Vision-LLMs
 
-Generate and test adversarial examples that transfer across different vision-language models:
+Generate and test adversarial examples on different vision-language models:
 
 ```bash
 # Baseline: Attack without transferable adversarial examples
