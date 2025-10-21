@@ -124,7 +124,15 @@ A summary of our attack is shown below:
 If you find this work useful in your research, please cite our paper:
 
 ```bibtex
-
+@misc{zhang2025blackboxoptimizationllmoutputs,
+      title={Black-box Optimization of LLM Outputs by Asking for Directions}, 
+      author={Jie Zhang and Meng Ding and Yang Liu and Jue Hong and Florian Tramèr},
+      year={2025},
+      eprint={2510.16794},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2510.16794}, 
+}
 ```
 
 
